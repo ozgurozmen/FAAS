@@ -16,7 +16,7 @@ This code is implemented on top of the base implementation of pqNTRUsign (https:
 
 ## Usage
 
-After installing the dependencies, go to CEDA folder and make. Then, under CEDA/Debug folder you can see the executable. Code is tested with Intel i7 6700HQ Ubuntu 16.04.
+After installing the dependencies, go to faas_RSA and FAAS_pqNTRU folders and make. Then, under the Debug folder you can see the executable. Code is tested with Intel i7 6700HQ Ubuntu 16.04.
 
 ## License
 
