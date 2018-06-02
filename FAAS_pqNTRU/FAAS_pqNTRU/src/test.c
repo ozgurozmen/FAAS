@@ -488,8 +488,8 @@ int main(void)
 			randNum[i] = rand()*255/RAND_MAX;
 		}
 		
-		memcpy(concat, &message, 32);
-		memcpy(concat + 32, &randNum, 16);
+		memcpy(concat, message, 32);
+		memcpy(concat + 32, randNum, 16);
 		
 		blake2b(hashedM, concat, NULL, 32,48,0);
 		
@@ -514,8 +514,8 @@ int main(void)
 		//VERIFY FAAS
 		
 		start2 = clock();
-		memcpy(concat, &message, 32);
-		memcpy(concat + 32, &randNum, 16);
+		memcpy(concat, message, 32);
+		memcpy(concat + 32, randNum, 16);
 		blake2b(hashedM, concat, NULL, 32,48,0);
 		
 		
